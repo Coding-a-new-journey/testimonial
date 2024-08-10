@@ -4,7 +4,7 @@ function Card(props){
 return(
     <div className='flex flex-col md:relative '>
         <div className="absolute top-[-7rem] z-[10] mx-auto">
-        <img className="aspect-square rounded-full  z-[25] w-[140px] h-[140px]" src={review.image} alt="Image"/>
+        <img className="aspect-square rounded-full  z-[25] w-[140px] h-[140px]" src={review.image} alt={review.image}/>
         <div className='rounded-full w-[140px] h-[140px] bg-violet-500 absolute top-[-6px] z-[-10] left-[10px]'></div>
         </div>
         
